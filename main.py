@@ -13,6 +13,6 @@ import hashlib
 password = hashlib.md5('adana01'.encode()).hexdigest()
 #print(password)
 
-connection.execute(''' INSERT INTO kullanicilar (kullanici_adi , kullanici_parolasi ) VALUES ("%s" ,  "%s")''' %('ayhan',password))
+connection.execute(''' INSERT INTO kullanicilar (kullanici_adi , kullanici_parolasi ) VALUES ("%s" ,  "%s")''' %('*****',*****))
 connection.commit()
 
